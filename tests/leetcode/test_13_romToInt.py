@@ -22,3 +22,9 @@ from python_playground.leetcode.leet_13_romToInt import Solution
 )
 def test_roman_to_int(method, roman, expected):
     assert getattr(Solution(), method)(roman) == expected
+
+@pytest.mark.benchmark(group="romanToInt")
+@pytest.mark.parametrize("method", ["romanToInt", "romanToInt_best"])
+def test_benchmark_roman_to_int(benchmark, method):
+    result = benchmark(getattr(Solution(), method), "MMMCMXCIX")
+    assert result == 3999
