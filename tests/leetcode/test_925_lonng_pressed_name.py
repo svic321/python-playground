@@ -1,6 +1,6 @@
 import pytest
 
-from python_playground.leetcode.leet_925_longPressedName import Solution
+from python_playground.leetcode.leet_925_long_pressed_name import Solution
 
 
 @pytest.mark.parametrize(

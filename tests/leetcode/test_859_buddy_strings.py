@@ -1,6 +1,6 @@
 import pytest
 
-from python_playground.leetcode.leet_859_buddyStrings import Solution
+from python_playground.leetcode.leet_859_buddy_strings import Solution
 
 
 @pytest.mark.parametrize(

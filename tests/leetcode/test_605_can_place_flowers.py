@@ -1,6 +1,6 @@
 import pytest
 
-from python_playground.leetcode.leet_605_canPlaceFlowers import Solution
+from python_playground.leetcode.leet_605_can_place_flowers import Solution
 
 METHODS = ["canPlaceFlowers", "canPlaceFlowers_1", "canPlaceFlowers_2"]
 

@@ -1,6 +1,6 @@
 import pytest
 
-from python_playground.leetcode.leet_13_romToInt import Solution
+from python_playground.leetcode.leet_13_rom_to_int import Solution
 
 
 @pytest.mark.parametrize("method", ["romanToInt", "romanToInt_best"])

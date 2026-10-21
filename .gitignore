@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+# experiments
+src/python_playground/explore.py
